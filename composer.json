@@ -1,0 +1,20 @@
+{
+    "name": "bruno/php-toolbox",
+    "autoload": {
+        "psr-4": {
+            "Toolbox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "thinkbruno",
+            "email": "brunoramos90@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
