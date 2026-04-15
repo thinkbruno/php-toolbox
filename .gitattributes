@@ -1,11 +1,12 @@
-* text=auto eol=lf
 
-*.blade.php diff=html
-*.css diff=css
-*.html diff=html
-*.md diff=markdown
-*.php diff=php
+*.blade.php linguist-detectable=true
+*.blade.php linguist-language=PHP
 
-/.github export-ignore
-CHANGELOG.md export-ignore
-.styleci.yml export-ignore
+
+vendor/* linguist-vendored
+node_modules/* linguist-vendored
+public/build/* linguist-vendored
+storage/* linguist-vendored
+
+
+src/**/*.php linguist-detectable=true
